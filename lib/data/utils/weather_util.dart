@@ -5,7 +5,8 @@ class WeatherUtil {
 
   static String getWeatherIcon(int kelvin) {
     if (kelvin < 300) {
-      return '🌩';
+      return '☀️';
+      //  return '🌩';
     } else if (kelvin < 400) {
       return '🌧';
     } else if (kelvin < 600) {

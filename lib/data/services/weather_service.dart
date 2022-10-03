@@ -19,7 +19,7 @@ class WeatherService {
         return json.decode(body) as Map<String, dynamic>;
 
         // _cityName = _data['name'];
-
+                                                                                                                      
         // /// temperatura kelvin turundo kelet
         // /// kelvindi celciuska ozgortuu kerek
         // /// celcius = kelvin - 273.15;
